@@ -1,0 +1,81 @@
+div.button {
+    width: 190px;
+    height: auto;
+    margin: 50px auto 50px;
+}
+span.main a {
+    display: block;
+    width: 190px;   
+    height: 50px;
+    text-align: center; 
+    color: #FFF;
+    background: #FC5E5E;    
+    font: bold 17px/50px Arial;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+span.top a {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 170px;
+    height: 40px;
+    background: #000;   
+    color: #FFF;
+    margin: -40px 0 0 10px;
+    font: bold 13px/35px Arial;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center; 
+    transition: margin 0.5s ease;
+    -webkit-transition: margin 0.5s ease;
+    -moz-transition: margin 0.5s ease;
+    -o-transition: margin 0.5s ease;
+    -ms-transition: margin 0.5s ease;
+}
+span.bottom a{
+    display: block;
+    position: absolute; 
+    z-index: -1;    
+    width: 170px;   
+    height: 40px;   
+    background: #000;
+    color: #FFF;        
+    margin: -45px 0 0 10px;
+    font: bold 13px/45px Arial;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center; 
+    transition: margin 0.5s ease;
+    -webkit-transition: margin 0.5s ease;
+    -moz-transition: margin 0.5s ease;
+    -o-transition: margin 0.5s ease;
+    -ms-transition: margin 0.5s ease;
+}
+div.button span a {
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);    
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    -moz-border-radius: 10px;   
+    -moz-box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}
+
+/* Hover */
+.button:hover span.top a{ 
+    margin: -82px 0 0 10px; 
+}
+.button:hover span.bottom a{ 
+    margin: -7px 0 0 10px; 
+}
+
+/* Active */
+.button a:active {
+    background: #FB4C4C;
+}
+.button:active span.top a{
+    margin: -82px 0 0 10px; 
+}
+.button:active span.bottom a{ 
+    margin: -7px 0 0 10px 
+}
